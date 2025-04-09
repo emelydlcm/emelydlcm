@@ -1,112 +1,97 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF8DC;
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
+  background: #ADD8E6;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
 }
 
 nav ul {
-    list-style: none;
-    margin-top: 20px;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #f39c12;
+  text-decoration: underline;
 }
 
-.section {
-    padding: 40px 0;
-    text-align: center;
-    background: #f4f4f4;
+main {
+  padding: 2rem;
 }
 
-#about p {
-    text-align: justify;
-    margin-bottom: 15px;
+section {
+  background: #fff;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
-#languages .language-cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+textarea,
+iframe {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 1rem;
 }
 
-.card {
-    background: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    width: 250px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
+textarea {
+  height: 150px;
+  padding: 10px;
+  font-family: monospace;
 }
 
-.card:hover {
-    transform: scale(1.05);
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.card h3 {
-    color: #333;
+#contact-form input,
+#contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-.card p {
-    color: #666;
+#contact-form .btn-container {
+  display: flex;
+  justify-content: flex-end;
 }
 
-form input, form textarea {
-    width: 80%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
+button {
+  margin-top: 0.5rem;
+  padding: 10px 20px;
+  border: none;
+  background: #ADD8E6;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-form button {
-    background-color: #f39c12;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    cursor: pointer;
+button:hover {
+  background: #94cde2;
 }
 
-form button:hover {
-    background-color: #e67e22;
+.footer-bar {
+  background-color: #ADD8E6;
+  text-align: center;
+  padding: 10px 0;
 }
-
-footer {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
-
