@@ -1,113 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lenguajes de Programación.</title>
-    <link rel="stylesheet" href="Estilo.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML</title>
+  <link rel="stylesheet" href="C:\Users\Emely Mora\Desktop\CSSPRUEBA.CSS">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Lenguajes de Programación.</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Inicio</a></li>
-                    <li><a href="#about">Acerca de</a></li>
-                    <li><a href="#languages">Lenguajes</a></li>
-                    <li><a href="#contact">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <header>
+    <div class="container">
+      <h1>Lenguajes de Programación.</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#proof">Prueba</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
+  <main>
     <section id="home" class="section">
-        <div class="container">
-            <h2>Bienvenidos al Mundo de los Lenguajes de Programación.</h2>
-            <p>Explora los diferentes lenguajes utilizados en el mundo de la 
-                programación y el desarrollo de software.</p>
-        </div>
+      <div class="container">
+        <h2>¿Qué es HTML?</h2>
+        <p>HTML (HyperText Markup Language) es el lenguaje de marcado estándar para crear páginas web. Permite estructurar contenido y elementos como títulos, párrafos, enlaces, imágenes, tablas y más.</p>
+      </div>
     </section>
 
-    <section id="about" class="section">
-        <div class="container">
-            <h2>¿Qué son los Lenguajes de Programación?</h2>
-            <p style="text-align: justify;">Los lenguajes de programación son un conjunto 
-                de instrucciones o reglas que permiten a los programadores comunicarse 
-                con una computadora para crear programas o software. Estos lenguajes 
-                permiten que los humanos den instrucciones precisas y estructuradas que 
-                la computadora pueda entender y ejecutar.</p>
-
-            <p style="text-align: justify;">Existen varios tipos de lenguajes
-                 de programación, y cada uno tiene su propia sintaxis y propósito.</p> 
-
-                 <p style="text-align: justify;">Algunos ejemplos incluyen:</p>
-                 
-            <p style="text-align: justify;"><strong>Lenguajes de bajo nivel:</strong> Son más 
-                cercanos al lenguaje de la máquina (código binario), como el lenguaje 
-                ensamblador. Estos lenguajes son más difíciles de usar para los humanos 
-                pero ofrecen mayor control sobre el hardware.</p>
-
-            <p style="text-align: justify;"><strong>Lenguajes de alto nivel:</strong> Son más 
-                cercanos al lenguaje humano y son más fáciles de aprender y usar.</p>
-
-            <p style="text-align: justify;"><strong>Lenguajes de programación orientados 
-                a objetos:</strong> Son lenguajes que usan el concepto de "objetos", que 
-                pueden tener atributos y métodos. Java, C++ y Python son ejemplos de 
-                lenguajes orientados a objetos.</p>
-        </div>
+    <section>
+      <h2>Códigos principales</h2>
+      <ul>
+        <li><code>&lt;html&gt;&lt;/html&gt;</code>: Define el documento HTML.</li>
+        <li><code>&lt;head&gt;&lt;/head&gt;</code>: Contiene metadatos del documento.</li>
+        <li><code>&lt;title&gt;&lt;/title&gt;</code>: Título que aparece en la pestaña.</li>
+        <li><code>&lt;body&gt;&lt;/body&gt;</code>: Contiene el contenido visible.</li>
+        <li><code>&lt;h1&gt; a &lt;h6&gt;</code>: Encabezados de diferentes niveles.</li>
+        <li><code>&lt;p&gt;&lt;/p&gt;</code>: Párrafos.</li>
+        <li><code>&lt;a href=""&gt;&lt;/a&gt;</code>: Enlaces.</li>
+        <li><code>&lt;img src="" alt=""&gt;</code>: Imágenes.</li>
+      </ul>
     </section>
 
-    <section id="languages" class="section">
-        <div class="container">
-            <h2>Lenguajes Populares.</h2>
-            <div class="language-cards">
-                <div class="card" id="python-card">
-                    <h3>Python.</h3>
-                    <p>Python es conocido por su simplicidad y legibilidad. 
-                        Es ideal para principiantes y se usa en desarrollo web, 
-                        análisis de datos, IA, y más.</p>
-                </div>
+    <section>
+      <h2>Uso</h2>
+      <p>HTML se usa para crear la estructura de páginas web, como títulos, textos, enlaces, listas, imágenes, formularios, etc.</p>
+    </section>
 
-                <div class="card" id="javascript-card">
-                    <h3>JavaScript.</h3>
-                    <p>JavaScript es el lenguaje principal para 
-                        la programación web interactiva. Es utilizado 
-                        en el desarrollo de sitios web dinámicos.</p>
-                </div>
+    <section>
+      <h2>Importancia</h2>
+      <p>Es fundamental para el desarrollo web. Sin HTML, no habría manera de mostrar contenido estructurado en la web. Además, es la base sobre la que se apoyan tecnologías como CSS y JavaScript.</p>
+    </section>
 
-                <div class="card" id="java-card">
-                    <h3>Java.</h3>
-                    <p>Java es un lenguaje popular para aplicaciones empresariales, 
-                        sistemas móviles (Android) y sistemas grandes.</p>
-                </div>
-            </div>
-        </div>
-
-        
+    <section id="proof" class="section">
+      <div class="container">
+        <h2>¡Prueba HTML aquí!</h2>
+        <p>Escribe código HTML en el cuadro y haz clic en "Ejecutar" para ver el resultado:</p>
+        <textarea id="editor">
+<h1>¡Hola Mundo!</h1>
+<p>Este es un párrafo HTML.</p>
+        </textarea>
+        <button onclick="ejecutarHTML()">Ejecutar</button>
+        <iframe id="resultado"></iframe>
+      </div>
     </section>
 
     <section id="contact" class="section">
-        <div class="container">
-            <h2>Contacto.</h2>
-            <form action="javascript:void(0);" id="contact-form">
-                <input type="text" id="name" placeholder="Tu Nombre" required>
-                <input type="email" id="email" placeholder="Tu Correo" required>
-                <textarea id="message" placeholder="Tu Mensaje" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
+      <div class="container">
+        <h2 style="text-align:center;">Contacto.</h2>
+        <form action="javascript:void(0);" id="contact-form">
+          <input type="text" id="name" placeholder="Tu Nombre" required>
+          <input type="email" id="email" placeholder="Tu Correo" required>
+          <textarea id="message" placeholder="Tu Mensaje" required></textarea>
+          <div class="btn-container">
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
     </section>
+  </main>
 
-    <footer>
-        <div class="container">
-            <B><marquee behavior="scroll" direction="left">¡GRACIAS POR VISITAR NUESTRA PAGINA!</marquee></B>
+  <footer>
+    <div class="footer-bar">
+      <b><marquee behavior="scroll" direction="left">¡GRACIAS POR VISITAR NUESTRA PAGINA!</marquee></b>
+    </div>
+  </footer>
 
-
-        </div>
-    </footer>
-
-    <script src="FUNCIONALIDAD.js"></script>
+  <script src="C:\Users\Emely Mora\Desktop\JSPRUEBA.JS"></script>
 </body>
 </html>
